@@ -30,11 +30,14 @@ displayed graphically as small circles. The user may click any point and a line 
 closest city. Left-clicking uses the corrected and right-clicking uses the un-corrected algorithm described above.
 
 Bonus Toggles:
+
 -Hit 'g' to toggle the grid determined by the kd-tree on and off (Note: right-clicking will always choose the city 
 according to the grid while left-clicking will choose the actual closest city.)
+
 -Hit 'c' to toggle "color generation" mode. This causes random points to be queried and a line drawn to the nearest 
 city. Furthermore, each city is assigned a color and the lines are of that city's color. Left to run a while, this will
 colorfully partition the square into the regions closest to each city!
+
 -Hit 'a' to toggle the choice of algorithm (for "color generation" mode only!) between the O(log n) kd-tree nearest-
 neighbor search and the O(n) simple linear nearest-neighbor search. When the number of cities, n, is large the kd-tree
 algorithm is noticably faster!
