@@ -1,4 +1,4 @@
-KDTreeCities
+Voronoi
 ============
 
 Solution to an algorithm brainteaser implemented graphically
